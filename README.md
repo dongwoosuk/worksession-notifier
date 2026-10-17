@@ -20,7 +20,7 @@ Windows, Rhino 8.35 or later in the Rhino 8 series, running **.NET 8**. Rhino 8.
 
 ## Install
 
-This repository is being prepared for a public beta. Package Manager availability begins only after publication.
+Download the public beta from [GitHub Releases](https://github.com/dongwoosuk/worksession-notifier/releases). Package Manager availability will be announced separately.
 
 For a manual install, download the release ZIP, extract it to a permanent folder, and drag `dist/WorksessionNotifier.rhp` into Rhino. Run `WSNotifyStatus` to confirm monitoring is enabled. Keep the extracted folder in place: Rhino registers the RHP at that location. Restart Rhino after updating.
 
@@ -45,8 +45,8 @@ Changes made before monitoring starts are not reported. Cloud changes are detect
 
 ## Feedback
 
-Use this repository's Issues tab after publication. Include Rhino version, Windows version, plugin version, storage type (local/network/cloud), reproduction steps, and relevant `WSNotifyStatus` output. Remove private paths and project names before posting.
+Report problems through [GitHub Issues](https://github.com/dongwoosuk/worksession-notifier/issues). Include Rhino version, Windows version, plugin version, storage type (local/network/cloud), reproduction steps, and relevant `WSNotifyStatus` output. Remove private paths and project names before posting.
 
-## Distribution terms
+## Publisher and license
 
-Publisher identity, source availability, and distribution terms must be finalized before public release.
+Published by **dongwoosuk**. Free to use for personal and commercial work. Source code is not published. See [LICENSE.txt](LICENSE.txt) for the binary-use terms. Share the official download link rather than redistributing the files.

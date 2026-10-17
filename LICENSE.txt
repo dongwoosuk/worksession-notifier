@@ -1,0 +1,17 @@
+Worksession Notifier — Free Binary Use License
+Copyright (c) 2026 dongwoosuk. All rights reserved except as granted below.
+
+Permission is granted to download, install, copy for installation or backup,
+and use official compiled releases of Worksession Notifier free of charge,
+including for personal and commercial work.
+
+Source code is not provided under this license. This license does not grant
+permission to modify, sublicense, sell, or redistribute the software. Share
+the official download link instead. Permissions required by applicable law
+are not restricted by this notice.
+
+The software is provided as is, without warranty. No promise of ongoing
+support or future updates is made.
+
+Official releases: https://github.com/dongwoosuk/worksession-notifier/releases
+Publisher: dongwoosuk

@@ -20,7 +20,11 @@ Windows and Rhino 8.35 or later in the Rhino 8 series, running .NET 8. Tested on
 
 Download the ZIP asset, extract it into a permanent folder, and drag `dist/WorksessionNotifier.rhp` into Rhino. Run `WSNotifyStatus`. Existing users should close Rhino before replacing the RHP and restart afterward.
 
-The ZIP is the manual installation option. The YAK asset is for Package Manager distribution; publication and clean installation must be completed before advertising Package Manager availability.
+The ZIP is the manual installation option. The YAK asset is the Windows package. Package Manager server availability will be announced separately.
+
+## Publisher and use
+
+Published by **dongwoosuk**. Free for personal and commercial use under the included binary-use license. Source code is not published. See LICENSE.txt in the download or repository. Share the official release link rather than redistributing files.
 
 ## Known limitations
 

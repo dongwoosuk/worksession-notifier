@@ -13,7 +13,7 @@ Receive an English popup when a file attached to your Rhino Worksession changes 
 
 ### Installation
 
-1. Obtain [WorksessionNotifier.rhp](dist/WorksessionNotifier.rhp).
+1. Obtain [WorksessionNotifier.rhp](https://github.com/dongwoosuk/worksession-notifier/releases).
 2. Paste this path into the File Explorer address bar:
 
    ```text
