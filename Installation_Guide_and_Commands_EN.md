@@ -11,7 +11,11 @@ Receive an English popup when a file attached to your Rhino Worksession changes 
 - Windows and **Rhino 8 running .NET 8**.
 - Tested with Rhino 8.35. Plugin version: **0.2.2-beta.1**.
 
-### Installation
+### Package Manager installation
+
+Run **PackageManager** in Rhino, enable **Include pre-releases**, search for **worksession-notifier**, and install **0.2.2-beta.1**. Restart Rhino and run **WSNotifyStatus**.
+
+### Manual installation
 
 1. Obtain [WorksessionNotifier.rhp](https://github.com/dongwoosuk/worksession-notifier/releases).
 2. Paste this path into the File Explorer address bar:

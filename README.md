@@ -20,7 +20,9 @@ Windows, Rhino 8.35 or later in the Rhino 8 series, running **.NET 8**. Rhino 8.
 
 ## Install
 
-Download the public beta from [GitHub Releases](https://github.com/dongwoosuk/worksession-notifier/releases). Package Manager availability will be announced separately.
+In Rhino, run **PackageManager**, enable **Include pre-releases**, search for **worksession-notifier**, and install **0.2.2-beta.1**. Restart Rhino and run `WSNotifyStatus`.
+
+You can also download the public beta from [GitHub Releases](https://github.com/dongwoosuk/worksession-notifier/releases).
 
 For a manual install, download the release ZIP, extract it to a permanent folder, and drag `dist/WorksessionNotifier.rhp` into Rhino. Run `WSNotifyStatus` to confirm monitoring is enabled. Keep the extracted folder in place: Rhino registers the RHP at that location. Restart Rhino after updating.
 

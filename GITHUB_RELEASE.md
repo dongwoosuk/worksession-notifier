@@ -18,9 +18,15 @@ Windows and Rhino 8.35 or later in the Rhino 8 series, running .NET 8. Tested on
 
 ## Install
 
+Recommended: run **PackageManager** in Rhino, enable **Include pre-releases**, search for **worksession-notifier**, and install **0.2.2-beta.1**. Restart Rhino and run `WSNotifyStatus`.
+
 Download the ZIP asset, extract it into a permanent folder, and drag `dist/WorksessionNotifier.rhp` into Rhino. Run `WSNotifyStatus`. Existing users should close Rhino before replacing the RHP and restart afterward.
 
-The ZIP is the manual installation option. The YAK asset is the Windows package. Package Manager server availability will be announced separately.
+The ZIP is the manual installation option. The YAK asset is the Windows package, also published on the Rhino Package Manager server.
+
+## Validation
+
+The installed YAK was tested in a dedicated Rhino 8.35 instance: automatic startup loading, changed-reference notification, Later without repeated alerts, reopening pending alerts, Refresh with geometry verification, a second saved change, and manual-refresh acknowledgement passed. Core tests passed 16 assertions. Yak uninstall and reinstall succeeded. This was an existing Windows user profile; clean-machine and live network/cloud collaboration tests remain unverified.
 
 ## Publisher and use
 
